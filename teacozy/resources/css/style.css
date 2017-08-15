@@ -1,0 +1,132 @@
+body {
+  margin:0;
+  font-family:"Helvetica", arial;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity:0.9;
+  text-align:center;
+}
+
+a {
+  color: seashell;
+}
+
+h2, h3, h4 {
+  padding:10px;
+  margin:0;
+  display:block;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+
+
+/* header */
+
+header {
+  position: fixed;
+  border-bottom:1px solid seashell;
+  width: 100%;
+  min-height: 69px;
+  background-color:black;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header img {
+  height:50px;
+  padding-left:10px;
+}
+
+nav {
+  text-align: right;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+nav a {
+  text-decoration:underline;
+}
+
+
+/* main content areas */
+
+#mission {
+  width:1200px;
+  height:700px;
+  background-image:url(../images/img-mission-background.jpg);
+  align-items:center;
+  margin:auto;
+}
+
+#mission .box {
+  background-color:black;
+  width:100%
+}
+
+#teaofmonth {
+  width:1000px;
+  margin: 75px auto;
+  text-align: center;
+}
+
+.product {
+  padding:15px;
+  width:300px;
+  flex-wrap: wrap;
+}
+
+.product span {
+  display: block;
+  margin-top:10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.product img {
+  width:300px;
+  height:200px;
+  display:block;
+}
+
+#locations {
+  display:flex;
+  width: 1200px;
+  height: 500px;
+  margin:auto;
+  background-image:url(../images/img-locations-background.jpg);
+  align-items: center;
+  justify-content: center;
+}
+
+.location-box {
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  height: 300px;
+  margin: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+#contact {
+  height:200px;
+}
+
+/* footer */
+
+footer {
+  padding-left: 20px;
+  text-align: left;
+}
